@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SeaBattleGame</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script src="socket.io.js"></script>
+    <script src="classesOfField.js"></script>
+    <script src="game.js"></script>
+</head>
+<body onload="CreateFields()">
+    <form id="myGame" class="playingField left">
+        <form id="myFieldForm" class="fieldForm">
+            <table id="myField">
+            </table>
+        </form>
+    </form>
+    <form id="enemyGame" class="playingField left">
+        <form id="enemyFieldForm" class="fieldForm">
+            <table id="enemyField">
+            </table>
+        </form>
+</form>
+<form>
+    <label ><p id="info"></p></label>
+</form>
+</body>
+</html>

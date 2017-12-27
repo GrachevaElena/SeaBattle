@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SeaBattleArrangeShips</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script src="socket.io.js"></script>
+    <script src="classesOfField.js"></script>
+    <script src="arrangeShips.js"></script>
+</head>
+<body onload="CreateMainField()">
+    <form id="shipsForm">
+        <label>Осталось четырехпалубников: <p id="four">1</p></label></br>
+        <label>Осталось трехпалубников: <p id="three">2</p></label></br>
+        <label>Осталось двухпалубников: <p id="two">3</p></label></br>
+        <label>Осталось однопалубников: <p id="one">4</p></label></br>
+        <label id="wait"></label></br>
+        <input id="buttonStartGame" type="button" value="Начать игру" onclick="StartGame()">
+    </form>
+    <form id="arrangeShips" class="playingField left">
+        <form id="fieldForm" class="fieldForm">
+            <table id="field">
+            </table>
+        </form>
+    </form>
+</body>
+</html>

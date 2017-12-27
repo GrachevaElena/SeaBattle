@@ -1,0 +1,92 @@
+.form {
+    border: #000000;
+    border-style: dashed;
+    width: 30%;
+}
+
+#name{
+    width:80%;
+    margin: auto;
+}
+
+.button{
+    width:80%;
+    margin: auto;
+}
+
+.center{
+
+    text-align: center;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.playingField{
+    width: 45%;
+}
+
+.fieldForm {
+    text-align: center;
+    width: 440px;
+    height: 440px;
+    float: left;
+}
+
+#field {
+    border: 2px groove cornflowerblue;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#shipsForm{
+    width: 12%;
+    float: left;
+}
+
+.cellEmpty {
+     border: 2px solid cornflowerblue;
+     background: #c9e9e7;
+     width: 40px;
+     height: 40px;
+ }
+
+.cellSkip {
+    border: 2px solid cornflowerblue;
+    background: white;
+    width: 40px;
+    height: 40px;
+}
+
+.cellKilled {
+    border: 2px solid cornflowerblue;
+    background: #ff8b89;
+    width: 40px;
+    height: 40px;
+}
+
+.cellGot {
+    border: 2px solid cornflowerblue;
+    background: #ffbb68;
+    width: 40px;
+    height: 40px;
+}
+
+.cellHead {
+    width: 40px;
+    height: 40px;
+}
+
+.cellShip {
+    border: 2px solid cornflowerblue;
+    background: #fbff79;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
